@@ -55,7 +55,7 @@
         "groups": [
           {
             "group": "Connect AI API documentation",
-            "openapi": "openapi.json"
+            "openapi": "api-reference/openapi.json"
           }
           ]
        }
