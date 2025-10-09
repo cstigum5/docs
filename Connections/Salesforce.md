@@ -12,7 +12,8 @@ description: "Salesforce Setup Guide"
 
 ## Authentication Methods
 
-<<Accordion title="Basic">
+<Accordion title="Basic">
+### Basic
 
 3. Enter a security token. This step is mandatory unless your IP has been added to 'Trusted IP Addresses' in Salesforce already.
 4. Set the **Use Sandbox** field to **True** (if you are connecting to a sandbox account). Otherwise, leave it as **False**.
