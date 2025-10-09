@@ -54,7 +54,7 @@
         "tab": "API reference",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Connect AI API documentation",
             "openapi": "openapi.json"
           }
           ]
