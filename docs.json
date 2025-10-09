@@ -59,7 +59,7 @@
           },
           {
             "group": "REST API documentation",
-            "restapi": "api-reference/RESTAPI.yaml" 
+            "restapi": "api-reference/RESTAPI.json" 
           }  
           ]
       }
