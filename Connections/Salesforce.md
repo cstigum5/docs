@@ -1,6 +1,6 @@
 ---
-title: Salesforce
-description: "Salesforce Setup Guide"
+title: 'Salesforce'
+description: 'Salesforce Setup Guide'
 ---
 
 ## Required Prerequisites (Salesforce Admin Only)
