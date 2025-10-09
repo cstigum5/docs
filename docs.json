@@ -54,11 +54,15 @@
         "tab": "Connect AI API reference",
         "groups": [
           {
-            "group": "Connect AI API documentation",
+            "group": "OpenAPI documentation",
             "openapi": "api-reference/openapi.json"
-          }
+          },
+          {
+            "group": "REST API documentation",
+            "restapi": "api-reference/RESTAPI.yaml" 
+          }  
           ]
-       }
+      }
           
         
       
