@@ -11,6 +11,9 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Home"
+      },  
+      {
         "tab": "Connect AI",
         "groups": [
           {
