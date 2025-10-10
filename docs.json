@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Connect AI",
         "groups": [
           {
             "group": "Getting started",
@@ -50,6 +50,47 @@
           }
         ]
       },
+      {
+        "tab": "Embedded Cloud",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index",
+              "quickstart",
+              "Navigation"
+            ]
+          },
+          {
+            "group": "Connecting Data",
+            "pages": [
+              "Connections/Salesforce",
+              "Connections/BigCommerce",
+              "Connections/NetSuite",
+              "Connections/More Sources"
+              
+            ]
+          },
+          {
+            "group": "Explore & Model",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
+            ]
+          }
+        ]
+      },
+
       {
         "tab": "API reference",
         "groups": [
