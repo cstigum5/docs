@@ -74,15 +74,7 @@
               
             ]
           },
-          {
-            "group": "Explore & Model",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
+          
           {
             "group": "Integrations",
             "pages": [
