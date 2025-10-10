@@ -28,8 +28,8 @@ import OAuth from '/snippets/oauth.md';
 <Accordion title="OAuth">
 ### OAuth
 
-1. Set the **Use Sandbox** field to **True** (if you are connecting to a sandbox account). Otherwise, leave it as **False**.
-
+<ol>
+<li>Set the **Use Sandbox** field to **True** (if you are connecting to a sandbox account). Otherwise, leave it as **False**.</li>
 <OAuth />
 
 </Accordion>

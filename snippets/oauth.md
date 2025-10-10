@@ -1,3 +1,4 @@
-6. Click **Sign in** to connect securely through OAuth. This action opens the {page} sign-in page in a new tab.
+<li>Click **Sign in** to connect securely through OAuth. This action opens the {page} sign-in page in a new tab.</li>
 
-7. Log in to your {page} account and provide the requested permissions (if applicable).
+<li>Log in to your {page} account and provide the requested permissions (if applicable).</li>
+</ol>
