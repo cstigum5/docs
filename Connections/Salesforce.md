@@ -3,7 +3,8 @@ title: "Salesforce"
 description: "Salesforce Setup Guide"
 ---
 
-import MySnippet from '/snippets/source-intro.mdx';
+import Intro from '/snippets/source-intro.mdx';
+import Test from '/snippets/test.mdx';
 
 ## Required Prerequisites (Salesforce Admin Only)
 
@@ -12,7 +13,7 @@ import MySnippet from '/snippets/source-intro.mdx';
 3. Click **Install** again to complete the process.
 5. Select the Authentication method, then proceed to the relevant section and follow those instructions.
 
-<MySnippet page="Salesforce" />
+<Intro page="Salesforce" />
 
 ## Authentication Methods
 
@@ -23,9 +24,12 @@ import MySnippet from '/snippets/source-intro.mdx';
 4. Set the **Use Sandbox** field to **True** (if you are connecting to a sandbox account). Otherwise, leave it as **False**.
 </Accordion>
 
+<Accordion title="OAuth">
 ### OAuth
 
 1. Set the **Use Sandbox** field to **True** (if you are connecting to a sandbox account). Otherwise, leave it as **False**.
+
+</Accordion>
 
 ### OAuthPassword
 
@@ -81,3 +85,5 @@ import MySnippet from '/snippets/source-intro.mdx';
 3. Enter the **OAuth Client Id** assigned when you registered your Salesforce account for OAuth.
 4. Enter the **OAuth Client Secret** for your Salesforce account for OAuth.
 5. Set the **Use Sandbox** field to **True** (if you are connecting to a sandbox account). Otherwise, leave it as **False**.
+
+<Test page="Salesforce" />
