@@ -5,6 +5,7 @@ description: "Salesforce Setup Guide"
 
 import Intro from '/snippets/source-intro.mdx';
 import Test from '/snippets/test.mdx';
+import OAuth from '/snippets/oauth.md';
 
 ## Required Prerequisites (Salesforce Admin Only)
 
@@ -28,6 +29,8 @@ import Test from '/snippets/test.mdx';
 ### OAuth
 
 1. Set the **Use Sandbox** field to **True** (if you are connecting to a sandbox account). Otherwise, leave it as **False**.
+
+<OAuth>
 
 </Accordion>
 
