@@ -31,7 +31,7 @@ import OAuth from '/snippets/oauth.md';
 <ol>
 <li>Set the **Use Sandbox** field to **True** (if you are connecting to a sandbox account). Otherwise, leave it as **False**.</li>
 <OAuth />
-
+</ol>
 </Accordion>
 
 ### OAuthPassword
