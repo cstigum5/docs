@@ -3,10 +3,6 @@ title: "Salesforce"
 description: "Salesforce Setup Guide"
 ---
 
-import MySnippet from '/snippets/source-intro.mdx';
-
-<source-intro page="Salesforce" />
-
 ## Required Prerequisites (Salesforce Admin Only)
 
 1. In Connect AI Setup, navigate to **Apps** \> **Connected Apps** \> **Connected Apps OAuth Usage**.
@@ -14,6 +10,9 @@ import MySnippet from '/snippets/source-intro.mdx';
 3. Click **Install** again to complete the process.
 5. Select the Authentication method, then proceed to the relevant section and follow those instructions.
 
+import MySnippet from '/snippets/source-intro.mdx';
+
+<source-intro page="Salesforce" />
 
 ## Authentication Methods
 
