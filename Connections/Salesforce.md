@@ -13,7 +13,7 @@ import Test from '/snippets/test.mdx';
 3. Click **Install** again to complete the process.
 5. Select the Authentication method, then proceed to the relevant section and follow those instructions.
 
-<Intro page="Salesforce", site="Connect AI" />
+<Intro page="Salesforce" site="Connect AI" />
 
 ## Authentication Methods
 
