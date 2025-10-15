@@ -28,9 +28,7 @@
             "group": "Connecting Data",
             "pages": [
               "Connections/Salesforce",
-              "Connections/BigCommerce",
-              "Connections/NetSuite",
-              "Connections/More Sources"
+              "Connections/BigCommerce"
               
             ]
           },
@@ -68,9 +66,7 @@
             "group": "Connecting Data",
             "pages": [
               "Connections/Salesforce",
-              "Connections/BigCommerce",
-              "Connections/NetSuite",
-              "Connections/More Sources"
+              "Connections/BigCommerce"
               
             ]
           },
