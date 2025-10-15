@@ -28,7 +28,8 @@
             "group": "Connecting Data",
             "pages": [
               "Connections/Salesforce",
-              "Connections/BigCommerce"
+              "Connections/BigCommerce",
+              "Connections/ArcCRM"
               
             ]
           },
