@@ -12,7 +12,9 @@
     "tabs": [
       {
         "tab": "Home",
-        "pages": "index"
+        "pages": [
+        "index"
+        ]
       },  
       {
         "tab": "Connect AI",
