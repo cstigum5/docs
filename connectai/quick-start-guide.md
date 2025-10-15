@@ -10,7 +10,7 @@ Connect a data source, explore it, and use it from AI or BI tools—in minutes.
 
 ## Step 1: Sign In
 
-1. Go to [https://cloud.cdata.com/](https://cloud.cdata.com){:target="_blank"}.
+1. Go to [https://cloud.cdata.com/](https://cloud.cdata.com).
 2. Sign in with your CData account. 
 
 *No account? Click **Sign Up** for a free trial.*
@@ -23,7 +23,7 @@ Connect a data source, explore it, and use it from AI or BI tools—in minutes.
 2. Select **OAuth** authentication (recommended).
 3. Provide:
    - **Client ID** and **Client Secret** from Salesforce (*Setup > App Manager > Your Connected App*).
-   - **Callback URL** shown in {{ site.title }}.
+   - **Callback URL** shown in Connect AI.
 4. Click **Authorize** and sign in with Salesforce.
 5. **Test** connection, and then **Save**.
 
@@ -93,7 +93,7 @@ Expose any source as a secure API for custom apps and large language models (LLM
 
 - REST provides programmatic access from apps/agents:
 
-  ``
+  ```
   GET https://cloud.cdata.com/api.rsc/Salesforce/Opportunity
   Authorization: Bearer <token>
   ```
@@ -138,8 +138,6 @@ EXECUTE | Run procedures (such as refresh metadata)
 - **Missing tables?** Refresh metadata on the source.
 - **Slow queries?** Filter early, limit columns, and enable caching.
 - **Auth errors?** Re-authorize OAuth and confirm scopes.
-
-{% include_relative common-gs-techsupport.md %}
 
 ## What's New
 
