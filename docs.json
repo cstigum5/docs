@@ -11,7 +11,8 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Home"
+        "tab": "Home",
+        "pages": "index"
       },  
       {
         "tab": "Connect AI",
@@ -19,7 +20,6 @@
           {
             "group": "Getting started",
             "pages": [
-              "index",
               "connectai/quick-start-guide",
               "connectai/navigation-menu"
             ]
