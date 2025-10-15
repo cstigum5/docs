@@ -20,8 +20,8 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "essentials/navigation"
+              "ConnectAI/Quick-Start-Guide",
+              "ConnectAI/Navigation-Menu"
             ]
           },
           {
@@ -58,8 +58,9 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "essentials/navigation"
+              "Embedded/Embedded-Cloud",
+              "Embedded/Navigation-Embedded",
+              "Embedded/Settings-Embedded"
             ]
           },
           {
