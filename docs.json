@@ -21,7 +21,7 @@
             "pages": [
               "index",
               "quickstart",
-              "Navigation"
+              "essentials/navigation"
             ]
           },
           {
@@ -59,7 +59,7 @@
             "pages": [
               "index",
               "quickstart",
-              "Navigation"
+              "essentials/navigation"
             ]
           },
           {
