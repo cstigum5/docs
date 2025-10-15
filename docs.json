@@ -58,7 +58,6 @@
           {
             "group": "Getting started",
             "pages": [
-              "index",
               "embedded/embedded-cloud",
               "embedded/navigation-embedded",
               "embedded/settings-embedded"
