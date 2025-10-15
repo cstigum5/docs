@@ -20,15 +20,16 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "essentials/navigation"
+              "connectai/quick-start-guide",
+              "connectai/navigation-menu"
             ]
           },
           {
             "group": "Connecting Data",
             "pages": [
               "Connections/Salesforce",
-              "Connections/BigCommerce"
+              "Connections/BigCommerce",
+              "Connections/ActCRM"
               
             ]
           },
@@ -57,9 +58,9 @@
           {
             "group": "Getting started",
             "pages": [
-              "index",
-              "quickstart",
-              "essentials/navigation"
+              "embedded/embedded-cloud",
+              "embedded/navigation-embedded",
+              "embedded/settings-embedded"
             ]
           },
           {
