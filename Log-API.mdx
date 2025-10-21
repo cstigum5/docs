@@ -1,0 +1,101 @@
+---
+title: "Log API"
+api: POST https://cloud.cdata.com/api/log/query/list
+contentType: application/json
+---
+## List Account Logs
+
+Get a list of account logs for an account.
+
+### Query Parameters
+<ParamField query="queryType" type="string">
+Query type.
+</ParamField>
+
+<ParamField query="startTime" type="string" required>
+Timestamp in UTC.
+</ParamField>
+
+<ParamField query="endTime" type="string" required>
+Timestamp in UTC.
+</ParamField>
+
+## Responses
+
+### 200 Success
+
+<Expandable title="Response body">
+<ResponseField name="queries" type="array of objects" required>
+  <ResponseField name="credential" type="string" required>
+    User credential.
+  </ResponseField>
+  <ResponseField name="duration" type="integer" required>
+    The duration of the query.
+  </ResponseField>
+  <ResponseField name="drivers" type="string" required>
+    The driver used for the query.
+  </ResponseField>
+  <ResponseField name="errorCode" type="string">
+    In the case of an error, the error code.
+  </ResponseField>
+  <ResponseField name="errorMessage" type="string">
+    The error message, if applicable.
+  </ResponseField>
+  <ResponseField name="logFileKey" type="string" required>
+    The log file key for downloading detailed logs.
+  </ResponseField>
+  <ResponseField name="logVerbosity" type="integer" required>
+    The verbosity of the log.
+  </ResponseField>
+  <ResponseField name="query" type="string" required>
+    The contents of the query.
+  </ResponseField>
+  <ResponseField name="queryId" type="string" required>
+    The unique identifier for the query.
+  </ResponseField>
+  <ResponseField name="queryType" type="integer" required>
+    The query type.
+  </ResponseField>
+  <ResponseField name="rowsAffected" type="integer" required>
+    The number of rows affected by the query.
+  </ResponseField>
+  <ResponseField name="rowsInput" type="integer" required>
+    The number of rows input to the query.
+  </ResponseField>
+  <ResponseField name="rowsReturned" type="integer" required>
+    The number of rows returned by the query.
+  </ResponseField>
+  <ResponseField name="timestamp" type="string" required>
+    Timestamp of the query.
+  </ResponseField>
+  <ResponseField name="userAgent" type="string" required>
+    The user agent that made the query.
+  </ResponseField>
+</ResponseField>
+</Expandable>
+
+<ResponseExample>
+```json RESPONSE 200
+{
+"queries": [
+        {
+            "credential": "prat8897@gmail.com",
+            "duration": 308,
+            "drivers": "PostgreSQL",
+            "errorCode": "QUERY_FAILED",
+            "errorMessage": "The stored procedure execution failed with the following error:\r\n[500] Could not execute the specified command: Unknown stored function/procedure transferdata\r\n<Query ID: e1af1260-4045-45e4-882b-96fe2575e37b>",
+            "logFileKey": "x41GvdkvWlJsaEdQrzI2+t7M+TSbimW8iJIfQPv9mK1PqurO1/pzPW3D2ObewKfK6w51T7ui8yecrEYV3JpW9WmsAU+yVv4Vke1D2lB8EeKsv3ab6w2ZXrNZxPBAgaKAZLoRf8zbuHGWDGSQQ9gDJg==",
+            "logVerbosity": 1,
+            "query": "PostgreSQL1.public.transferdata",
+            "queryId": "e1af1260-4045-45e4-882b-96fe2575e37b",
+            "queryType": 203,
+            "rowsAffected": -1,
+            "rowsInput": 1,
+            "rowsReturned": 0,
+            "timestamp": "2024-03-19T18:55:34.837Z",
+            "userAgent": "PostmanRuntime/7.37.0"
+        }
+    ]
+}
+```
+</ResponseExample>

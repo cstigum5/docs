@@ -3,11 +3,24 @@
   "theme": "mint",
   "name": "Connect AI",
   "colors": {
-    "primary": "#00629D",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#00A0FF",
+    "light": "#00A0FF",
+    "dark": "#00A0FF"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
+  "background": {
+    "decoration": "gradient"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Verdana",
+      "weight": 400
+    },
+    "body": {
+      "family": "Roboto",
+      "weight": 400
+    }
+  },
   "navigation": {
     "tabs": [
       {
@@ -69,8 +82,8 @@
           {
             "group": "Connecting Data",
             "pages": [
-              "Connections/Salesforce",
-              "Connections/BigCommerce"
+              "Connections/ActCRM",
+              "Connections/ActiveCampaign"
               
             ]
           },
@@ -129,8 +142,8 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "CData for AI",
+        "href": "https://cdata.com/company/contact.aspx"
       }
     ],
     "primary": {
@@ -151,9 +164,14 @@
      "vscode"
    ]
   },
-  "footer": {
+   "footer": {
     "socials": {
-      "linkedin": "https://linkedin.com/company/cdatasoftware"
+      "x": "https://x.com/cdatasoftware",
+      "youtube": "https://www.youtube.com/c/CDataSoftware",
+      "linkedin": "https://www.linkedin.com/company/cdatasoftware",
+      "facebook": "https://www.facebook.com/cdatasoftware",
+      "instagram": "https://www.instagram.com/cdatasoftware"
+
     }
   }
 }
