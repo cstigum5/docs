@@ -43,9 +43,8 @@
           {
             "group": "Connecting Data",
             "pages": [
-              "Connections/Salesforce",
-              "Connections/BigCommerce",
-              "Connections/ActCRM"
+              "Connections/ActCRM",
+              "Connections/ActiveCampaign"
               
             ]
           },
